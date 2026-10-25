@@ -1,0 +1,37 @@
+# Binaries & Executables
+daemon
+*.o
+*.out
+*.so
+*.a
+*.exe
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Java Bytecode & Crash Dumps
+*.class
+*.jar
+hs_err_pid*.log
+replay_pid*.log
+
+# Unix Domain Sockets & Temp Files
+*.sock
+*.tmp
+workspaces/
+
+# Logs & Environment
+*.log
+.env
+
+# Editor & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
